@@ -1,0 +1,16 @@
+[4:33 pm, 14/02/2022] Janeswar Bsc(physics): def getSum(n):
+    
+    sum = 0
+    for digit in str(n): 
+      sum += int(digit)      
+    return sum
+   
+n = 12345
+print(getSum(n))
+n=int(input('enter num:'))
+sum = 0
+while (n > 0):
+       
+        sum = sum + (n % 10)
+        n = n//10
+print(sum)
